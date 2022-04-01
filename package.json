@@ -17,7 +17,6 @@
     "storybook": "start-storybook -p 6006 --no-open",
     "build-storybook": "build-storybook"
   },
-  "files": ["dist"],
   "peerDependencies": {
     "vue": "^2.6.14",
     "tailwindcss": "^3.0.23"
