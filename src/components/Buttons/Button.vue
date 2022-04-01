@@ -1,5 +1,5 @@
 <template>
-    <div class="button" @click="$emit('onClick')">
+    <div class="bg-emerald-500 text-white text-center p-3 px-8 cursor-pointer inline-flex rounded-full items-center justify-center select-none font-bold" @click="$emit('onClick')">
         {{ label }}
     </div>
 </template>
