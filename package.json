@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "main": "dist/vite-vue2-library.umd.js",
   "module": "dist/vite-vue2-library.es.js",
+  "typings": "dist/index.d.ts",
   "exports": {
     ".": {
       "import": "dist/vite-vue2-library.es.js",

@@ -79,4 +79,7 @@ function __vue2_injectStyles(context) {
 var Button = /* @__PURE__ */ function() {
   return __component__.exports;
 }();
-export { Button };
+var index = {
+  Button
+};
+export { index as default };
