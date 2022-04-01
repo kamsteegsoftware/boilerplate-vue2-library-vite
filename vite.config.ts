@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import { createVuePlugin } from 'vite-plugin-vue2';
 import * as path from 'path';
+import typescript from '@rollup/plugin-typescript';
 
 export default defineConfig({
     build: {
@@ -15,7 +16,10 @@ export default defineConfig({
                 globals: {
                     vue: 'Vue'
                 }
-            }
+            },
+            plugins: [
+                typescript()
+            ]
         }
     },
     plugins: [createVuePlugin()]
